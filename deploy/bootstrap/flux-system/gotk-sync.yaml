@@ -8,10 +8,10 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: --token-auth
+    branch: RajKale29435
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/rajkalemsft/kubecon2022
+  url: https://github.com/rajkalemsft/kubecon2022
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
